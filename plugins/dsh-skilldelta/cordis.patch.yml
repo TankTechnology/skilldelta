@@ -1,0 +1,9 @@
+# SkillDelta bundle patch for DeepSeek Harness.
+- insert:
+    - id: skilldelta
+      name: './src/index.js'
+      config:
+        autoRoute: true
+        failMode: always-on
+        threshold: 0
+        k: 10

@@ -1,0 +1,23 @@
+_base_: ../../third_party/SkillOpt/configs/_base_/default.yaml
+
+model:
+  backend: openai_compatible
+  target_backend: openai_compatible
+  target: deepseek-v4-flash
+  optimizer_backend: openai_compatible
+  optimizer: deepseek-v4-flash
+  reasoning_effort: medium
+
+env:
+  name: spreadsheetbench
+  skill_init: ""
+  split_mode: split_dir
+  split_dir: experiments/data/spreadsheetbench_split
+  data_path: ""
+  data_root: experiments/data/spreadsheetbench_raw/spreadsheetbench_verified_400
+  split_output_dir: ""
+  mode: single
+  max_completion_tokens: 16384
+  workers: 24
+  max_api_workers: 24
+  limit: 0

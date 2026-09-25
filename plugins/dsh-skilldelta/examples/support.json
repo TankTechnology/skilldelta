@@ -1,0 +1,38 @@
+{
+  "schema": "skilldelta-support-v1",
+  "embedding_model": "synthetic-demo",
+  "tasks": [
+    {
+      "id": "history-help-1",
+      "embedding": [
+        1,
+        0
+      ],
+      "d": 1
+    },
+    {
+      "id": "history-help-2",
+      "embedding": [
+        0.9,
+        0.1
+      ],
+      "d": 1
+    },
+    {
+      "id": "history-harm-1",
+      "embedding": [
+        0,
+        1
+      ],
+      "d": -1
+    },
+    {
+      "id": "history-harm-2",
+      "embedding": [
+        0.1,
+        0.9
+      ],
+      "d": -1
+    }
+  ]
+}

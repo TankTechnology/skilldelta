@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use SkillDelta, please cite the accompanying paper."
+type: software
+title: SkillDelta
+authors:
+  - family-names: Xu
+    given-names: Anjie
+    affiliation: Peking University
+  - family-names: Zhang
+    given-names: Zhiyu
+    affiliation: Peking University
+  - family-names: Ding
+    given-names: Ruiqing
+    affiliation: Hefei University of Technology
+  - family-names: Xu
+    given-names: Fengli
+    affiliation: Tsinghua University
+  - family-names: Wang
+    given-names: Leye
+    affiliation: Peking University
+repository-code: "https://github.com/TankTechnology/skilldelta"
+url: "https://github.com/TankTechnology/skilldelta"
+license: MIT
+date-released: 2026-09-25
+preferred-citation:
+  type: unpublished
+  title: "When Does a Skill Add Value? Task-Conditional Gain Prediction for Selective Skill Use"
+  authors:
+    - family-names: Xu
+      given-names: Anjie
+    - family-names: Zhang
+      given-names: Zhiyu
+    - family-names: Ding
+      given-names: Ruiqing
+    - family-names: Xu
+      given-names: Fengli
+    - family-names: Wang
+      given-names: Leye
+  year: 2026
+  url: "https://github.com/TankTechnology/skilldelta"

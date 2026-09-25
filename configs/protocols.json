@@ -1,0 +1,37 @@
+{
+  "ToolQA": {
+    "k": 3,
+    "scope": "family",
+    "weighting": "nonnegative_cosine",
+    "score": "signed_gain",
+    "threshold": "zero"
+  },
+  "MedCalc-Bench": {
+    "k": 3,
+    "scope": "family",
+    "weighting": "nonnegative_cosine",
+    "score": "signed_gain",
+    "threshold": "support_prevalence"
+  },
+  "BigCodeBench": {
+    "k": 3,
+    "scope": "family",
+    "weighting": "nonnegative_cosine",
+    "score": "signed_gain",
+    "threshold": "zero"
+  },
+  "LogicBench": {
+    "k": 10,
+    "scope": "global",
+    "weighting": "uniform",
+    "score": "positive_label",
+    "threshold": "support_prevalence"
+  },
+  "SpreadsheetBench": {
+    "k": 3,
+    "scope": "family",
+    "weighting": "nonnegative_cosine",
+    "score": "signed_gain",
+    "threshold": "zero"
+  }
+}

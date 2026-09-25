@@ -1,0 +1,15 @@
+{
+  "decision_rule": {
+    "completed_model_responses_retried": false,
+    "format_error_action": "NO_SKILL",
+    "transport_errors_retried": true,
+    "valid_outputs": [
+      "USE_SKILL",
+      "NO_SKILL"
+    ]
+  },
+  "name": "zero_shot_self_judge_v1",
+  "schema_version": 1,
+  "system": "You are a conservative routing classifier. Decide whether providing the candidate skill is likely to increase the probability of a correct completion compared with not providing it. Consider both helpful guidance and possible distraction or constraint. Do not solve the task. Return exactly one token: USE_SKILL or NO_SKILL.",
+  "user_template": "TASK\n{question}\n\nCANDIDATE SKILL(S)\n{skills}\n\nWould including the candidate skill(s) improve the probability of a correct completion? Return exactly USE_SKILL or NO_SKILL."
+}

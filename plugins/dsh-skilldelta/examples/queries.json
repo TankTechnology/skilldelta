@@ -1,0 +1,14 @@
+{
+  "schema": "skilldelta-query-index-v1",
+  "embedding_model": "synthetic-demo",
+  "embeddings": {
+    "demo-help": [
+      1,
+      0
+    ],
+    "demo-skip": [
+      0,
+      1
+    ]
+  }
+}

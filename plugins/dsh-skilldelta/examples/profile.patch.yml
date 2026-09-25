@@ -1,0 +1,15 @@
+# Replace /absolute/path/skilldelta with this repository's location.
+- insert:
+    - id: skilldelta
+      name: /absolute/path/skilldelta/plugins/dsh-skilldelta/src/index.js
+      config:
+        support: /absolute/path/skilldelta/plugins/dsh-skilldelta/examples/support.json
+        queryIndex: /absolute/path/skilldelta/plugins/dsh-skilldelta/examples/queries.json
+        skill: /absolute/path/skilldelta/plugins/dsh-skilldelta/examples/skill.md
+        routeLog: /absolute/path/skilldelta/results/harness/routes.jsonl
+        pythonCmd: python3
+        autoRoute: true
+        failMode: reject
+        threshold: 0
+        k: 2
+        taskIdEnv: SKILLDELTA_TASK_ID
